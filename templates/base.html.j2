@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap">
+<style>
+html,body{margin:0;padding:0;background:#3A3D42}
+.frame{width:1080px;height:1350px;box-sizing:border-box;padding:36px;display:flex;flex-direction:column;background:#3A3D42;font-family:'Noto Sans KR',sans-serif;font-variant-numeric:tabular-nums}
+.board{flex:1;display:flex;flex-direction:column;background:#082779;border:6px solid #1B1D21;overflow:hidden;color:#FFFFFF}
+.top{--bg:#0B2C86;background:#0B2C86;display:flex;justify-content:space-between;align-items:center;padding:28px 24px 22px;border-bottom:3px solid #2A63D4}
+.logo{background:#FFD400;color:#082779;font-size:64px;font-weight:900;width:96px;height:96px;display:flex;align-items:center;justify-content:center;border-radius:8px}
+.en{font-size:28px;color:#BFD3FF;font-weight:500;letter-spacing:2px}
+.ko{font-size:64px;font-weight:900;line-height:1.1}
+.idx{background:#04154A;padding:8px 20px;border-radius:6px;font-size:44px;font-weight:700;display:inline-block}
+.when{font-size:22px;color:#BFD3FF;margin-top:8px}
+.when b{color:#FFD400}
+.hdr{background:#2A63D4;display:grid;padding:12px 24px;font-size:24px;font-weight:700}
+.hdr small{display:block;font-size:16px;font-weight:500;color:#D6E2FF}
+.row{display:grid;align-items:center;padding:0 24px;border-bottom:1px solid #06205F}
+.row:nth-of-type(odd){--bg:#0A2C84;background:#0A2C84}
+.row:nth-of-type(even){--bg:#0D3596;background:#0D3596}
+.r{text-align:right}
+.cheap{color:#3BE07E}.pricey{color:#FF5B4F}.normal{color:#FFFFFF}
+.yellow{color:#FFD400}.muted{color:#BFD3FF}
+.foot{margin-top:auto;background:#04154A;display:flex;justify-content:space-between;align-items:center;padding:18px 24px;font-size:22px;color:#BFD3FF}
+.foot .next{color:#FFD400;font-size:26px;font-weight:700}
+.panel{background:#0A2C84;border:1px solid #1E4AB0}
+{% block css %}{% endblock %}
+</style>
+</head>
+<body>
+<div class="frame"><div class="board">
+<div class="top">
+ <div style="display:flex;align-items:center;gap:22px">
+  <div class="logo">₩</div>
+  <div><div class="en">{{ en_title }}</div><div class="ko">{{ ko_title }}</div></div>
+ </div>
+ <div style="text-align:right">{% block topright %}<div class="idx">{{ idx }}/{{ total }}</div>{% endblock %}<div class="when"><b>{{ d.date_short }} {{ d.time }}</b> 기준{% block when_extra %}{% endblock %}</div></div>
+</div>
+{% block body %}{% endblock %}
+<div class="foot"><div>{% block foot %}{% endblock %}</div><div class="next">{% if idx < total %}밀어서 계속 →{% else %}오늘의 환전{% endif %}</div></div>
+</div></div>
+</body>
+</html>

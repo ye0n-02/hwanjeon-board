@@ -1,0 +1,15 @@
+{% extends "base.html.j2" %}
+{% block body %}
+{% set t = d.tip %}
+<div style="padding:40px 32px 0;display:flex;flex-direction:column;gap:22px">
+ <div style="font-size:30px;font-weight:700" class="yellow">오늘의 팁 · {{ t.tag }}</div>
+ <div style="font-size:60px;font-weight:900;line-height:1.2">{{ t.title | safe }}</div>
+ {% for s in t.steps %}
+ <div class="panel" style="display:flex;gap:28px;align-items:flex-start;padding:26px 30px">
+  <div style="background:#FFD400;color:#082779;font-size:48px;font-weight:900;width:76px;height:76px;flex:none;display:flex;align-items:center;justify-content:center;border-radius:8px">{{ loop.index }}</div>
+  <div><div style="font-size:38px;font-weight:900">{{ s.h }}</div><div style="font-size:27px;color:#D6E2FF;line-height:1.5;margin-top:8px">{{ s.p }}</div></div>
+ </div>
+ {% endfor %}
+</div>
+{% endblock %}
+{% block foot %}조건은 은행·카드·환전소마다 달라 · 출발 전에 꼭 확인{% endblock %}

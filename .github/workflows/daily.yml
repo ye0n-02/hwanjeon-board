@@ -1,0 +1,57 @@
+name: 오늘의 환전 (매일)
+
+on:
+  schedule:
+    - cron: "15 0 * * 1-5"   # 평일 09:15 KST
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "날짜 (YYYY-MM-DD, 비우면 오늘)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: 패키지 설치
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk ffmpeg >/dev/null
+      - name: 환율 수집 + 카드 생성
+        id: build
+        env:
+          HANA_PBLD_DV_CD: ${{ vars.HANA_PBLD_DV_CD || '2' }}
+        run: python -m bot.main build ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
+      - name: 결과 저장 (기록 + 카드)
+        if: always()
+        run: |
+          git config user.name "hwanjeon-bot"
+          git config user.email "hwanjeon-bot@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "오늘의 환전 $(TZ=Asia/Seoul date +%F)"
+          git push
+      - name: 인스타 게시
+        if: steps.build.outputs.skip == 'false'
+        env:
+          POST_ENABLED: ${{ vars.POST_ENABLED }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST || 'graph.facebook.com' }}
+        run: |
+          python -m bot.main publish --date ${{ steps.build.outputs.day }}
+          git add docs
+          git diff --cached --quiet || (git commit -m "게시 완료 기록" && git push)

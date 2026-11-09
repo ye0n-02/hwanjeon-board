@@ -1,0 +1,15 @@
+{% extends "base.html.j2" %}
+{% block css %}.G{grid-template-columns:1fr 210px 210px 210px}{% endblock %}
+{% block body %}
+<div style="padding:22px 24px;font-size:30px;font-weight:700">여행 갈 때 바꾸는 단위로 보면 <span class="yellow">이만큼 차이 나</span> <span style="font-size:22px;font-weight:500" class="muted">(단위: 원)</span></div>
+<div class="hdr G"><div>살 외화<small>AMOUNT</small></div><div class="r">100% 우대<small>BEST</small></div><div class="r">80% 우대<small>GOOD</small></div><div class="r">우대 없음<small>NONE</small></div></div>
+{% for c in d.rows %}
+<div class="row G" style="height:96px">
+ <div><div style="font-size:32px;font-weight:700">{{ c.travel_label }}</div><div style="font-size:20px" class="muted">{{ c.code }} · 현찰 수수료 {{ c.spread_pct_s }}%</div></div>
+ <div class="r yellow" style="font-size:36px;font-weight:700">{{ c.fee_best_s }}</div>
+ <div class="r" style="font-size:36px;font-weight:700">{{ c.fee_80_s }}</div>
+ <div class="r muted" style="font-size:36px;font-weight:700">{{ c.fee_none_s }}</div>
+</div>
+{% endfor %}
+{% endblock %}
+{% block foot %}하나은행 현찰 살 때 고시 기준 · 은행·앱마다 우대 조건이 달라{% endblock %}

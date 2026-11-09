@@ -1,0 +1,13 @@
+{% extends "base.html.j2" %}
+{% block body %}
+<div style="padding:24px 24px 0;display:flex;flex-direction:column;gap:20px">
+{% for ch in d.charts %}
+<div class="panel" style="padding:18px 24px 14px">
+ <div style="display:flex;justify-content:space-between;align-items:baseline"><div style="font-size:32px;font-weight:700">{{ ch.code }} <span style="font-size:24px;font-weight:500" class="muted">{{ ch.short }} · {{ ch.unit_label }}</span></div><div style="font-size:32px;font-weight:700">{{ ch.today_s }}원 <span class="{{ ch.verdict_cls }}">{{ ch.pos_s }}</span></div></div>
+ {{ ch.svg | safe }}
+ <div style="display:flex;justify-content:space-between;font-size:20px" class="muted"><div>{{ ch.first_s }}</div><div>점선 = {{ ch.n }}영업일 평균 {{ ch.avg_s }}원</div><div>오늘</div></div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}
+{% block foot %}하나은행 고시 매매기준율 · 영업일 기준{% endblock %}

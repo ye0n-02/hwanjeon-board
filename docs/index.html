@@ -1,0 +1,9 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>오늘의 환전</title>
+<style>body{margin:0;background:#082779;color:#fff;font-family:system-ui,sans-serif;padding:24px}img,video{width:100%;max-width:540px;display:block;margin:0 auto 16px}h1{text-align:center}</style></head>
+<body><h1>오늘의 환전</h1><div id="c"></div>
+<script>
+fetch('latest.json',{cache:'no-store'}).then(r=>r.json()).then(({day})=>fetch(`posts/${day}/data.json`,{cache:'no-store'}).then(r=>r.json())).then(d=>{
+ const c=document.getElementById('c');const h=document.createElement('p');h.textContent=d.day;h.style.textAlign='center';c.appendChild(h);
+ d.files.forEach(f=>{const el=document.createElement(f.endsWith('.mp4')?'video':'img');el.src=`posts/${d.day}/${f}`;if(el.tagName==='VIDEO'){el.autoplay=el.loop=el.muted=true;el.playsInline=true}c.appendChild(el)})
+}).catch(()=>{document.getElementById('c').textContent='아직 카드가 없어요'})
+</script></body></html>

@@ -1,0 +1,15 @@
+{% extends "base.html.j2" %}
+{% block css %}.G{grid-template-columns:170px 1fr 200px 200px}{% endblock %}
+{% block body %}
+<div style="padding:22px 24px;font-size:30px;font-weight:700">오늘 환율로 계산하면</div>
+<div class="hdr G"><div>도시<small>CITY</small></div><div>메뉴<small>ITEM</small></div><div class="r">현지 가격<small>LOCAL</small></div><div class="r">원화<small>KRW</small></div></div>
+{% for l in d.local %}
+<div class="row G" style="height:100px">
+ <div style="font-size:32px;font-weight:700">{{ l.city }}</div>
+ <div style="font-size:32px;font-weight:500">{{ l.item }}</div>
+ <div class="r muted" style="font-size:30px">{{ l.label }}</div>
+ <div class="r yellow" style="font-size:40px;font-weight:700">{{ l.krw_s }}원</div>
+</div>
+{% endfor %}
+{% endblock %}
+{% block foot %}현지 가격은 대략적인 예시 · 매매기준율로 환산{% endblock %}

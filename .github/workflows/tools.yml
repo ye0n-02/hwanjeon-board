@@ -1,0 +1,43 @@
+name: 도구 (확인·백필)
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "할 일"
+        type: choice
+        options: [probe, backfill, whoami]
+        default: probe
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 실행
+        env:
+          HANA_PBLD_DV_CD: ${{ vars.HANA_PBLD_DV_CD || '2' }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python -m bot.main ${{ inputs.task }}
+      - name: 하나은행 응답 원본 보관
+        if: inputs.task == 'probe'
+        uses: actions/upload-artifact@v4
+        with:
+          name: probe
+          path: probe/
+      - name: 백필 결과 저장
+        if: inputs.task == 'backfill'
+        run: |
+          git config user.name "hwanjeon-bot"
+          git config user.email "hwanjeon-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -m "환율 기록 백필" && git push)

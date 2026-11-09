@@ -1,0 +1,36 @@
+{% extends "base.html.j2" %}
+{% block css %}
+.f{position:relative;display:block;height:64px;perspective:700px}
+.fd{position:relative;display:inline-block;width:230px;height:84px;perspective:500px}
+.h{position:absolute;left:0;width:100%;height:50%;overflow:hidden;background:var(--bg);backface-visibility:hidden}
+.t{top:0}.b{top:50%}
+.h>span{display:block;height:64px;line-height:64px;white-space:nowrap}
+.f .b>span{margin-top:-32px}
+.fd .h>span{height:84px;line-height:84px}
+.fd .b>span{margin-top:-42px}
+.ft{z-index:2;transform-origin:50% 100%;animation:ft 8s linear infinite}
+.fb{z-index:2;transform-origin:50% 0;transform:rotateX(90deg);animation:fb 8s linear infinite}
+.dl{opacity:0;animation:dl 8s linear infinite}
+@keyframes ft{0%,20%{transform:rotateX(0deg)}24%,100%{transform:rotateX(-90deg)}}
+@keyframes fb{0%,24%{transform:rotateX(90deg)}28%,100%{transform:rotateX(0deg)}}
+@keyframes dl{0%,27%{opacity:0}32%,95%{opacity:1}100%{opacity:0}}
+.G{grid-template-columns:120px 250px 1fr 170px 130px}
+{% endblock %}
+{% macro flap(old, new, delay, align="right", cls="f") -%}
+<span class="{{ cls }}"><span class="h t" style="text-align:{{ align }}"><span>{{ new }}</span></span><span class="h b" style="text-align:{{ align }}"><span>{{ old }}</span></span><span class="h t ft" style="text-align:{{ align }};animation-delay:{{ delay }}s"><span>{{ old }}</span></span><span class="h b fb" style="text-align:{{ align }};animation-delay:{{ delay }}s"><span>{{ new }}</span></span></span>
+{%- endmacro %}
+{% block topright %}<div style="background:#04154A;padding:4px 18px;border-radius:6px;font-size:64px;font-weight:700;display:inline-block;width:230px;height:84px"><span style="--bg:#04154A">{{ flap(d.prev_date_short, d.date_short, 0.4, "center", "fd") }}</span></div>{% endblock %}
+{% block when_extra %} · 매매기준율{% endblock %}
+{% block body %}
+<div class="hdr G"><div>통화<small>CODE</small></div><div>국가<small>COUNTRY</small></div><div class="r" style="padding-right:24px">원화 가격<small>KRW</small></div><div class="r">어제 대비<small>VS YDAY</small></div><div class="r">현황<small>STATUS</small></div></div>
+{% for c in d.rows %}
+<div class="row G" style="height:104px">
+ <div style="font-size:34px;font-weight:700;letter-spacing:1px">{{ c.code }}</div>
+ <div><div style="font-size:32px;font-weight:500;line-height:1.2">{{ c.name }}</div><div style="font-size:22px" class="muted">{{ c.unit_label }} 당</div></div>
+ <div style="font-size:46px;font-weight:700;padding-right:24px">{{ flap(c.prev_s ~ "원", c.today_s ~ "원", 1.2 + loop.index0 * 0.18) }}</div>
+ <div class="dl r {{ c.delta_cls }}" style="animation-delay:{{ 1.2 + loop.index0 * 0.18 }}s;font-size:30px;font-weight:700">{{ c.delta_s }}</div>
+ <div class="r {{ c.verdict_cls }}" style="font-size:34px;font-weight:700">{{ c.verdict }}</div>
+</div>
+{% endfor %}
+{% endblock %}
+{% block foot %}어제 {{ d.time }}와 비교 · ▼ 내려가면 이득 · 현황은 최근 30일 기준{% endblock %}

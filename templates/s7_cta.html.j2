@@ -1,0 +1,15 @@
+{% extends "base.html.j2" %}
+{% block body %}
+<div style="flex:1;padding:56px 56px 0;display:flex;flex-direction:column;gap:32px">
+ <div style="font-size:36px;font-weight:700;letter-spacing:2px" class="muted">NEXT UPDATE</div>
+ <div style="display:flex;align-items:baseline;gap:24px"><div style="background:#04154A;font-size:104px;font-weight:900;padding:0 28px;border-radius:10px" class="yellow">09:00</div><div style="font-size:48px;font-weight:700">{{ d.next_label }}</div></div>
+ <div style="font-size:60px;font-weight:900;line-height:1.25">매일 아침 9시,<br>환전 타이밍을<br>전광판처럼 띄워줄게</div>
+ <div style="display:flex;flex-direction:column;gap:16px;font-size:36px;font-weight:700">
+  <div style="background:#0A2C84;padding:22px 28px">팔로우 · 매일 업데이트 받기</div>
+  <div style="background:#0D3596;padding:22px 28px">저장 · 출발 전에 다시 보기</div>
+  <div style="background:#0A2C84;padding:22px 28px">공유 · 여행 가는 친구한테</div>
+ </div>
+ <div style="font-size:40px;font-weight:900" class="yellow">{{ d.account }}</div>
+</div>
+{% endblock %}
+{% block foot %}오늘의 환전 · 환율 예측이 아닌 기록입니다{% endblock %}

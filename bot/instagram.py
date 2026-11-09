@@ -50,7 +50,12 @@ def publish_carousel(user_id: str, token: str, media: list[dict], caption: str) 
     children = []
     for m in media:
         if m["type"] == "video":
-            c = _call("POST", f"{user_id}/media", token, media_type="VIDEO", video_url=m["url"], is_carousel_item="true")
+            # 표지가 영상 첫 프레임(어제 값)으로 잡히지 않게, 오늘 값이 다 넘어간 6초 지점을 썸네일로
+            try:
+                c = _call("POST", f"{user_id}/media", token, media_type="VIDEO", video_url=m["url"],
+                          is_carousel_item="true", thumb_offset="6000")
+            except IGError:
+                c = _call("POST", f"{user_id}/media", token, media_type="VIDEO", video_url=m["url"], is_carousel_item="true")
         else:
             c = _call("POST", f"{user_id}/media", token, image_url=m["url"], is_carousel_item="true")
         children.append(c["id"])

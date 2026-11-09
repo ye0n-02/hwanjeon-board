@@ -1,1 +1,1511 @@
-{}
+{
+ "2026-09-21": {
+  "rates": {
+   "USD": {
+    "base": 1383.8,
+    "cash_buy": 1408.01,
+    "cash_sell": 1359.59
+   },
+   "JPY": {
+    "base": 881.01,
+    "cash_buy": 896.42,
+    "cash_sell": 865.6
+   },
+   "EUR": {
+    "base": 1588.6,
+    "cash_buy": 1620.21,
+    "cash_sell": 1556.99
+   },
+   "CNY": {
+    "base": 206.76,
+    "cash_buy": 217.09,
+    "cash_sell": 196.43
+   },
+   "THB": {
+    "base": 41.5,
+    "cash_buy": 43.57,
+    "cash_sell": 39.01
+   },
+   "TWD": {
+    "base": 43.54,
+    "cash_buy": 49.24,
+    "cash_sell": 39.19
+   },
+   "PHP": {
+    "base": 22.01,
+    "cash_buy": 24.21,
+    "cash_sell": 20.21
+   }
+  },
+  "meta": {
+   "date": "2026-09-21",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-09-22": {
+  "rates": {
+   "USD": {
+    "base": 1384.3,
+    "cash_buy": 1408.52,
+    "cash_sell": 1360.08
+   },
+   "JPY": {
+    "base": 879.84,
+    "cash_buy": 895.23,
+    "cash_sell": 864.45
+   },
+   "EUR": {
+    "base": 1587.1,
+    "cash_buy": 1618.68,
+    "cash_sell": 1555.52
+   },
+   "CNY": {
+    "base": 207.0,
+    "cash_buy": 217.35,
+    "cash_sell": 196.65
+   },
+   "THB": {
+    "base": 41.65,
+    "cash_buy": 43.73,
+    "cash_sell": 39.16
+   },
+   "TWD": {
+    "base": 43.6,
+    "cash_buy": 49.31,
+    "cash_sell": 39.24
+   },
+   "PHP": {
+    "base": 22.05,
+    "cash_buy": 24.25,
+    "cash_sell": 20.25
+   },
+   "VND": {
+    "base": 5.32,
+    "cash_buy": 5.94,
+    "cash_sell": 4.7
+   }
+  },
+  "meta": {
+   "date": "2026-09-22",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-09-23": {
+  "rates": {
+   "USD": {
+    "base": 1360.0,
+    "cash_buy": 1383.8,
+    "cash_sell": 1336.2
+   },
+   "JPY": {
+    "base": 863.68,
+    "cash_buy": 878.79,
+    "cash_sell": 848.57
+   },
+   "EUR": {
+    "base": 1556.93,
+    "cash_buy": 1587.91,
+    "cash_sell": 1525.95
+   },
+   "CNY": {
+    "base": 203.28,
+    "cash_buy": 213.44,
+    "cash_sell": 193.12
+   },
+   "THB": {
+    "base": 41.06,
+    "cash_buy": 43.11,
+    "cash_sell": 38.6
+   },
+   "TWD": {
+    "base": 42.91,
+    "cash_buy": 48.53,
+    "cash_sell": 38.62
+   },
+   "PHP": {
+    "base": 21.74,
+    "cash_buy": 23.91,
+    "cash_sell": 19.96
+   }
+  },
+  "meta": {
+   "date": "2026-09-23",
+   "round": 1,
+   "time": "08:26"
+  }
+ },
+ "2026-09-28": {
+  "rates": {
+   "USD": {
+    "base": 1352.0,
+    "cash_buy": 1375.66,
+    "cash_sell": 1328.34
+   },
+   "JPY": {
+    "base": 857.9,
+    "cash_buy": 872.91,
+    "cash_sell": 842.89
+   },
+   "EUR": {
+    "base": 1538.04,
+    "cash_buy": 1568.64,
+    "cash_sell": 1507.44
+   },
+   "CNY": {
+    "base": 201.73,
+    "cash_buy": 211.81,
+    "cash_sell": 191.65
+   },
+   "THB": {
+    "base": 40.41,
+    "cash_buy": 42.43,
+    "cash_sell": 37.99
+   },
+   "TWD": {
+    "base": 42.63,
+    "cash_buy": 48.21,
+    "cash_sell": 38.37
+   },
+   "PHP": {
+    "base": 21.66,
+    "cash_buy": 23.82,
+    "cash_sell": 19.89
+   },
+   "VND": {
+    "base": 5.2,
+    "cash_buy": 5.81,
+    "cash_sell": 4.59
+   }
+  },
+  "meta": {
+   "date": "2026-09-28",
+   "round": 1,
+   "time": "08:29"
+  }
+ },
+ "2026-09-29": {
+  "rates": {
+   "USD": {
+    "base": 1360.0,
+    "cash_buy": 1383.8,
+    "cash_sell": 1336.2
+   },
+   "JPY": {
+    "base": 863.9,
+    "cash_buy": 879.01,
+    "cash_sell": 848.79
+   },
+   "EUR": {
+    "base": 1546.46,
+    "cash_buy": 1577.23,
+    "cash_sell": 1515.69
+   },
+   "CNY": {
+    "base": 202.2,
+    "cash_buy": 212.31,
+    "cash_sell": 192.09
+   },
+   "THB": {
+    "base": 40.47,
+    "cash_buy": 42.49,
+    "cash_sell": 38.05
+   },
+   "TWD": {
+    "base": 42.77,
+    "cash_buy": 48.37,
+    "cash_sell": 38.5
+   },
+   "PHP": {
+    "base": 21.76,
+    "cash_buy": 23.93,
+    "cash_sell": 19.98
+   },
+   "VND": {
+    "base": 5.24,
+    "cash_buy": 5.85,
+    "cash_sell": 4.63
+   }
+  },
+  "meta": {
+   "date": "2026-09-29",
+   "round": 1,
+   "time": "08:23"
+  }
+ },
+ "2026-09-30": {
+  "rates": {
+   "USD": {
+    "base": 1358.4,
+    "cash_buy": 1382.17,
+    "cash_sell": 1334.63
+   },
+   "JPY": {
+    "base": 863.16,
+    "cash_buy": 878.26,
+    "cash_sell": 848.06
+   },
+   "EUR": {
+    "base": 1540.29,
+    "cash_buy": 1570.94,
+    "cash_sell": 1509.64
+   },
+   "CNY": {
+    "base": 202.51,
+    "cash_buy": 212.63,
+    "cash_sell": 192.39
+   },
+   "THB": {
+    "base": 40.46,
+    "cash_buy": 42.48,
+    "cash_sell": 38.04
+   },
+   "TWD": {
+    "base": 42.63,
+    "cash_buy": 48.21,
+    "cash_sell": 38.37
+   },
+   "PHP": {
+    "base": 21.7,
+    "cash_buy": 23.87,
+    "cash_sell": 19.93
+   },
+   "VND": {
+    "base": 5.23,
+    "cash_buy": 5.84,
+    "cash_sell": 4.62
+   }
+  },
+  "meta": {
+   "date": "2026-09-30",
+   "round": 1,
+   "time": "08:23"
+  }
+ },
+ "2026-10-01": {
+  "rates": {
+   "USD": {
+    "base": 1355.7,
+    "cash_buy": 1379.42,
+    "cash_sell": 1331.98
+   },
+   "JPY": {
+    "base": 861.28,
+    "cash_buy": 876.35,
+    "cash_sell": 846.21
+   },
+   "EUR": {
+    "base": 1536.14,
+    "cash_buy": 1566.7,
+    "cash_sell": 1505.58
+   },
+   "CNY": {
+    "base": 202.19,
+    "cash_buy": 212.29,
+    "cash_sell": 192.09
+   },
+   "THB": {
+    "base": 40.34,
+    "cash_buy": 42.35,
+    "cash_sell": 37.92
+   },
+   "TWD": {
+    "base": 42.51,
+    "cash_buy": 48.07,
+    "cash_sell": 38.26
+   },
+   "PHP": {
+    "base": 21.63,
+    "cash_buy": 23.79,
+    "cash_sell": 19.86
+   },
+   "VND": {
+    "base": 5.22,
+    "cash_buy": 5.83,
+    "cash_sell": 4.61
+   }
+  },
+  "meta": {
+   "date": "2026-10-01",
+   "round": 1,
+   "time": "08:23"
+  }
+ },
+ "2026-10-02": {
+  "rates": {
+   "USD": {
+    "base": 1359.6,
+    "cash_buy": 1383.39,
+    "cash_sell": 1335.81
+   },
+   "JPY": {
+    "base": 860.32,
+    "cash_buy": 875.37,
+    "cash_sell": 845.27
+   },
+   "EUR": {
+    "base": 1528.67,
+    "cash_buy": 1559.09,
+    "cash_sell": 1498.25
+   },
+   "CNY": {
+    "base": 202.55,
+    "cash_buy": 212.67,
+    "cash_sell": 192.43
+   },
+   "THB": {
+    "base": 40.37,
+    "cash_buy": 42.38,
+    "cash_sell": 37.95
+   },
+   "TWD": {
+    "base": 42.61,
+    "cash_buy": 48.19,
+    "cash_sell": 38.35
+   },
+   "PHP": {
+    "base": 21.65,
+    "cash_buy": 23.81,
+    "cash_sell": 19.88
+   },
+   "VND": {
+    "base": 5.23,
+    "cash_buy": 5.84,
+    "cash_sell": 4.62
+   }
+  },
+  "meta": {
+   "date": "2026-10-02",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-06": {
+  "rates": {
+   "USD": {
+    "base": 1358.5,
+    "cash_buy": 1382.27,
+    "cash_sell": 1334.73
+   },
+   "JPY": {
+    "base": 860.16,
+    "cash_buy": 875.21,
+    "cash_sell": 845.11
+   },
+   "EUR": {
+    "base": 1524.1,
+    "cash_buy": 1554.42,
+    "cash_sell": 1493.78
+   },
+   "CNY": {
+    "base": 202.69,
+    "cash_buy": 212.82,
+    "cash_sell": 192.56
+   },
+   "THB": {
+    "base": 40.33,
+    "cash_buy": 42.34,
+    "cash_sell": 37.92
+   },
+   "TWD": {
+    "base": 42.8,
+    "cash_buy": 48.4,
+    "cash_sell": 38.52
+   },
+   "PHP": {
+    "base": 21.68,
+    "cash_buy": 23.84,
+    "cash_sell": 19.91
+   },
+   "VND": {
+    "base": 5.23,
+    "cash_buy": 5.84,
+    "cash_sell": 4.62
+   }
+  },
+  "meta": {
+   "date": "2026-10-06",
+   "round": 1,
+   "time": "08:25"
+  }
+ },
+ "2026-10-07": {
+  "rates": {
+   "USD": {
+    "base": 1343.4,
+    "cash_buy": 1366.9,
+    "cash_sell": 1319.9
+   },
+   "JPY": {
+    "base": 849.1,
+    "cash_buy": 863.95,
+    "cash_sell": 834.25
+   },
+   "EUR": {
+    "base": 1512.27,
+    "cash_buy": 1542.36,
+    "cash_sell": 1482.18
+   },
+   "CNY": {
+    "base": 200.31,
+    "cash_buy": 210.32,
+    "cash_sell": 190.3
+   },
+   "THB": {
+    "base": 39.96,
+    "cash_buy": 41.95,
+    "cash_sell": 37.57
+   },
+   "TWD": {
+    "base": 42.25,
+    "cash_buy": 47.78,
+    "cash_sell": 38.03
+   },
+   "PHP": {
+    "base": 21.41,
+    "cash_buy": 23.55,
+    "cash_sell": 19.66
+   },
+   "VND": {
+    "base": 5.17,
+    "cash_buy": 5.78,
+    "cash_sell": 4.56
+   }
+  },
+  "meta": {
+   "date": "2026-10-07",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-08": {
+  "rates": {
+   "USD": {
+    "base": 1339.2,
+    "cash_buy": 1362.63,
+    "cash_sell": 1315.77
+   },
+   "JPY": {
+    "base": 847.46,
+    "cash_buy": 862.29,
+    "cash_sell": 832.63
+   },
+   "EUR": {
+    "base": 1500.04,
+    "cash_buy": 1529.89,
+    "cash_sell": 1470.19
+   },
+   "CNY": {
+    "base": 199.71,
+    "cash_buy": 209.69,
+    "cash_sell": 189.73
+   },
+   "THB": {
+    "base": 39.82,
+    "cash_buy": 41.81,
+    "cash_sell": 37.44
+   },
+   "TWD": {
+    "base": 42.04,
+    "cash_buy": 47.54,
+    "cash_sell": 37.84
+   },
+   "PHP": {
+    "base": 21.35,
+    "cash_buy": 23.48,
+    "cash_sell": 19.6
+   },
+   "VND": {
+    "base": 5.15,
+    "cash_buy": 5.75,
+    "cash_sell": 4.55
+   }
+  },
+  "meta": {
+   "date": "2026-10-08",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-12": {
+  "rates": {
+   "USD": {
+    "base": 1338.0,
+    "cash_buy": 1361.41,
+    "cash_sell": 1314.59
+   },
+   "JPY": {
+    "base": 845.42,
+    "cash_buy": 860.21,
+    "cash_sell": 830.63
+   },
+   "EUR": {
+    "base": 1498.43,
+    "cash_buy": 1528.24,
+    "cash_sell": 1468.62
+   },
+   "CNY": {
+    "base": 199.58,
+    "cash_buy": 209.55,
+    "cash_sell": 189.61
+   },
+   "THB": {
+    "base": 39.89,
+    "cash_buy": 41.88,
+    "cash_sell": 37.5
+   },
+   "TWD": {
+    "base": 41.9,
+    "cash_buy": 47.38,
+    "cash_sell": 37.71
+   },
+   "PHP": {
+    "base": 21.31,
+    "cash_buy": 23.44,
+    "cash_sell": 19.57
+   },
+   "VND": {
+    "base": 5.17,
+    "cash_buy": 5.78,
+    "cash_sell": 4.56
+   }
+  },
+  "meta": {
+   "date": "2026-10-12",
+   "round": 1,
+   "time": "08:27"
+  }
+ },
+ "2026-10-13": {
+  "rates": {
+   "USD": {
+    "base": 1335.8,
+    "cash_buy": 1359.17,
+    "cash_sell": 1312.43
+   },
+   "JPY": {
+    "base": 842.3,
+    "cash_buy": 857.04,
+    "cash_sell": 827.56
+   },
+   "EUR": {
+    "base": 1490.42,
+    "cash_buy": 1520.07,
+    "cash_sell": 1460.77
+   },
+   "CNY": {
+    "base": 199.34,
+    "cash_buy": 209.3,
+    "cash_sell": 189.38
+   },
+   "THB": {
+    "base": 39.71,
+    "cash_buy": 41.69,
+    "cash_sell": 37.33
+   },
+   "TWD": {
+    "base": 41.82,
+    "cash_buy": 47.29,
+    "cash_sell": 37.64
+   },
+   "PHP": {
+    "base": 21.28,
+    "cash_buy": 23.4,
+    "cash_sell": 19.54
+   },
+   "VND": {
+    "base": 5.15,
+    "cash_buy": 5.75,
+    "cash_sell": 4.55
+   }
+  },
+  "meta": {
+   "date": "2026-10-13",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-14": {
+  "rates": {
+   "USD": {
+    "base": 1340.5,
+    "cash_buy": 1363.95,
+    "cash_sell": 1317.05
+   },
+   "JPY": {
+    "base": 846.57,
+    "cash_buy": 861.38,
+    "cash_sell": 831.76
+   },
+   "EUR": {
+    "base": 1500.96,
+    "cash_buy": 1530.82,
+    "cash_sell": 1471.1
+   },
+   "CNY": {
+    "base": 200.23,
+    "cash_buy": 210.24,
+    "cash_sell": 190.22
+   },
+   "THB": {
+    "base": 39.93,
+    "cash_buy": 41.92,
+    "cash_sell": 37.54
+   },
+   "TWD": {
+    "base": 41.73,
+    "cash_buy": 47.19,
+    "cash_sell": 37.56
+   },
+   "PHP": {
+    "base": 21.34,
+    "cash_buy": 23.47,
+    "cash_sell": 19.6
+   },
+   "VND": {
+    "base": 5.17,
+    "cash_buy": 5.78,
+    "cash_sell": 4.56
+   }
+  },
+  "meta": {
+   "date": "2026-10-14",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-15": {
+  "rates": {
+   "USD": {
+    "base": 1338.6,
+    "cash_buy": 1362.02,
+    "cash_sell": 1315.18
+   },
+   "JPY": {
+    "base": 846.65,
+    "cash_buy": 861.46,
+    "cash_sell": 831.84
+   },
+   "EUR": {
+    "base": 1495.48,
+    "cash_buy": 1525.24,
+    "cash_sell": 1465.72
+   },
+   "CNY": {
+    "base": 199.94,
+    "cash_buy": 209.93,
+    "cash_sell": 189.95
+   },
+   "THB": {
+    "base": 39.8,
+    "cash_buy": 41.79,
+    "cash_sell": 37.42
+   },
+   "TWD": {
+    "base": 41.59,
+    "cash_buy": 47.03,
+    "cash_sell": 37.44
+   },
+   "PHP": {
+    "base": 21.29,
+    "cash_buy": 23.41,
+    "cash_sell": 19.55
+   },
+   "VND": {
+    "base": 5.17,
+    "cash_buy": 5.78,
+    "cash_sell": 4.56
+   }
+  },
+  "meta": {
+   "date": "2026-10-15",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-16": {
+  "rates": {
+   "USD": {
+    "base": 1348.5,
+    "cash_buy": 1372.09,
+    "cash_sell": 1324.91
+   },
+   "JPY": {
+    "base": 853.02,
+    "cash_buy": 867.94,
+    "cash_sell": 838.1
+   },
+   "EUR": {
+    "base": 1512.14,
+    "cash_buy": 1542.23,
+    "cash_sell": 1482.05
+   },
+   "CNY": {
+    "base": 201.61,
+    "cash_buy": 211.69,
+    "cash_sell": 191.53
+   },
+   "THB": {
+    "base": 40.24,
+    "cash_buy": 42.25,
+    "cash_sell": 37.83
+   },
+   "TWD": {
+    "base": 41.66,
+    "cash_buy": 47.11,
+    "cash_sell": 37.5
+   },
+   "PHP": {
+    "base": 21.38,
+    "cash_buy": 23.51,
+    "cash_sell": 19.63
+   },
+   "VND": {
+    "base": 5.21,
+    "cash_buy": 5.82,
+    "cash_sell": 4.6
+   }
+  },
+  "meta": {
+   "date": "2026-10-16",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-19": {
+  "rates": {
+   "USD": {
+    "base": 1342.4,
+    "cash_buy": 1365.89,
+    "cash_sell": 1318.91
+   },
+   "JPY": {
+    "base": 850.24,
+    "cash_buy": 865.11,
+    "cash_sell": 835.37
+   },
+   "EUR": {
+    "base": 1505.17,
+    "cash_buy": 1535.12,
+    "cash_sell": 1475.22
+   },
+   "CNY": {
+    "base": 201.03,
+    "cash_buy": 211.08,
+    "cash_sell": 190.98
+   },
+   "THB": {
+    "base": 40.16,
+    "cash_buy": 42.16,
+    "cash_sell": 37.76
+   },
+   "TWD": {
+    "base": 41.38,
+    "cash_buy": 46.8,
+    "cash_sell": 37.25
+   },
+   "PHP": {
+    "base": 21.31,
+    "cash_buy": 23.44,
+    "cash_sell": 19.57
+   },
+   "VND": {
+    "base": 5.18,
+    "cash_buy": 5.79,
+    "cash_sell": 4.57
+   }
+  },
+  "meta": {
+   "date": "2026-10-19",
+   "round": 1,
+   "time": "08:26"
+  }
+ },
+ "2026-10-20": {
+  "rates": {
+   "USD": {
+    "base": 1332.1,
+    "cash_buy": 1355.41,
+    "cash_sell": 1308.79
+   },
+   "JPY": {
+    "base": 840.18,
+    "cash_buy": 854.88,
+    "cash_sell": 825.48
+   },
+   "EUR": {
+    "base": 1493.48,
+    "cash_buy": 1523.2,
+    "cash_sell": 1463.76
+   },
+   "CNY": {
+    "base": 199.41,
+    "cash_buy": 209.38,
+    "cash_sell": 189.44
+   },
+   "THB": {
+    "base": 39.66,
+    "cash_buy": 41.64,
+    "cash_sell": 37.29
+   },
+   "TWD": {
+    "base": 40.98,
+    "cash_buy": 46.34,
+    "cash_sell": 36.89
+   },
+   "PHP": {
+    "base": 21.15,
+    "cash_buy": 23.26,
+    "cash_sell": 19.42
+   },
+   "VND": {
+    "base": 5.14,
+    "cash_buy": 5.74,
+    "cash_sell": 4.54
+   }
+  },
+  "meta": {
+   "date": "2026-10-20",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-21": {
+  "rates": {
+   "USD": {
+    "base": 1328.0,
+    "cash_buy": 1351.24,
+    "cash_sell": 1304.76
+   },
+   "JPY": {
+    "base": 839.07,
+    "cash_buy": 853.75,
+    "cash_sell": 824.39
+   },
+   "EUR": {
+    "base": 1491.14,
+    "cash_buy": 1520.81,
+    "cash_sell": 1461.47
+   },
+   "CNY": {
+    "base": 198.85,
+    "cash_buy": 208.79,
+    "cash_sell": 188.91
+   },
+   "THB": {
+    "base": 39.51,
+    "cash_buy": 41.48,
+    "cash_sell": 37.14
+   },
+   "TWD": {
+    "base": 40.74,
+    "cash_buy": 46.07,
+    "cash_sell": 36.67
+   },
+   "PHP": {
+    "base": 21.05,
+    "cash_buy": 23.15,
+    "cash_sell": 19.33
+   },
+   "VND": {
+    "base": 5.13,
+    "cash_buy": 5.73,
+    "cash_sell": 4.53
+   }
+  },
+  "meta": {
+   "date": "2026-10-21",
+   "round": 1,
+   "time": "08:25"
+  }
+ },
+ "2026-10-22": {
+  "rates": {
+   "USD": {
+    "base": 1325.5,
+    "cash_buy": 1348.69,
+    "cash_sell": 1302.31
+   },
+   "JPY": {
+    "base": 838.26,
+    "cash_buy": 852.92,
+    "cash_sell": 823.6
+   },
+   "EUR": {
+    "base": 1488.6,
+    "cash_buy": 1518.22,
+    "cash_sell": 1458.98
+   },
+   "CNY": {
+    "base": 198.66,
+    "cash_buy": 208.59,
+    "cash_sell": 188.73
+   },
+   "THB": {
+    "base": 39.44,
+    "cash_buy": 41.41,
+    "cash_sell": 37.08
+   },
+   "TWD": {
+    "base": 40.9,
+    "cash_buy": 46.25,
+    "cash_sell": 36.81
+   },
+   "PHP": {
+    "base": 20.92,
+    "cash_buy": 23.01,
+    "cash_sell": 19.21
+   },
+   "VND": {
+    "base": 5.13,
+    "cash_buy": 5.73,
+    "cash_sell": 4.53
+   }
+  },
+  "meta": {
+   "date": "2026-10-22",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-23": {
+  "rates": {
+   "USD": {
+    "base": 1324.6,
+    "cash_buy": 1347.78,
+    "cash_sell": 1301.42
+   },
+   "JPY": {
+    "base": 846.12,
+    "cash_buy": 860.92,
+    "cash_sell": 831.32
+   },
+   "EUR": {
+    "base": 1486.4,
+    "cash_buy": 1515.97,
+    "cash_sell": 1456.83
+   },
+   "CNY": {
+    "base": 198.37,
+    "cash_buy": 208.28,
+    "cash_sell": 188.46
+   },
+   "THB": {
+    "base": 39.26,
+    "cash_buy": 41.22,
+    "cash_sell": 36.91
+   },
+   "TWD": {
+    "base": 40.62,
+    "cash_buy": 45.94,
+    "cash_sell": 36.56
+   },
+   "PHP": {
+    "base": 20.86,
+    "cash_buy": 22.94,
+    "cash_sell": 19.15
+   },
+   "VND": {
+    "base": 5.12,
+    "cash_buy": 5.72,
+    "cash_sell": 4.52
+   }
+  },
+  "meta": {
+   "date": "2026-10-23",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-26": {
+  "rates": {
+   "USD": {
+    "base": 1324.3,
+    "cash_buy": 1347.47,
+    "cash_sell": 1301.13
+   },
+   "JPY": {
+    "base": 843.83,
+    "cash_buy": 858.59,
+    "cash_sell": 829.07
+   },
+   "EUR": {
+    "base": 1483.81,
+    "cash_buy": 1513.33,
+    "cash_sell": 1454.29
+   },
+   "CNY": {
+    "base": 198.29,
+    "cash_buy": 208.2,
+    "cash_sell": 188.38
+   },
+   "THB": {
+    "base": 39.21,
+    "cash_buy": 41.17,
+    "cash_sell": 36.86
+   },
+   "TWD": {
+    "base": 40.64,
+    "cash_buy": 45.96,
+    "cash_sell": 36.58
+   },
+   "PHP": {
+    "base": 20.82,
+    "cash_buy": 22.9,
+    "cash_sell": 19.12
+   },
+   "VND": {
+    "base": 5.12,
+    "cash_buy": 5.72,
+    "cash_sell": 4.52
+   }
+  },
+  "meta": {
+   "date": "2026-10-26",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-27": {
+  "rates": {
+   "USD": {
+    "base": 1322.6,
+    "cash_buy": 1345.74,
+    "cash_sell": 1299.46
+   },
+   "JPY": {
+    "base": 839.83,
+    "cash_buy": 854.52,
+    "cash_sell": 825.14
+   },
+   "EUR": {
+    "base": 1477.87,
+    "cash_buy": 1507.27,
+    "cash_sell": 1448.47
+   },
+   "CNY": {
+    "base": 198.43,
+    "cash_buy": 208.35,
+    "cash_sell": 188.51
+   },
+   "THB": {
+    "base": 39.16,
+    "cash_buy": 41.11,
+    "cash_sell": 36.82
+   },
+   "TWD": {
+    "base": 40.63,
+    "cash_buy": 45.95,
+    "cash_sell": 36.57
+   },
+   "PHP": {
+    "base": 20.69,
+    "cash_buy": 22.75,
+    "cash_sell": 19.0
+   },
+   "VND": {
+    "base": 5.12,
+    "cash_buy": 5.72,
+    "cash_sell": 4.52
+   }
+  },
+  "meta": {
+   "date": "2026-10-27",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-10-28": {
+  "rates": {
+   "USD": {
+    "base": 1324.3,
+    "cash_buy": 1347.47,
+    "cash_sell": 1301.13
+   },
+   "JPY": {
+    "base": 838.3,
+    "cash_buy": 852.97,
+    "cash_sell": 823.63
+   },
+   "EUR": {
+    "base": 1473.81,
+    "cash_buy": 1503.13,
+    "cash_sell": 1444.49
+   },
+   "CNY": {
+    "base": 198.69,
+    "cash_buy": 208.62,
+    "cash_sell": 188.76
+   },
+   "THB": {
+    "base": 39.22,
+    "cash_buy": 41.18,
+    "cash_sell": 36.87
+   },
+   "TWD": {
+    "base": 40.79,
+    "cash_buy": 46.13,
+    "cash_sell": 36.72
+   },
+   "PHP": {
+    "base": 20.72,
+    "cash_buy": 22.79,
+    "cash_sell": 19.03
+   },
+   "VND": {
+    "base": 5.13,
+    "cash_buy": 5.73,
+    "cash_sell": 4.53
+   }
+  },
+  "meta": {
+   "date": "2026-10-28",
+   "round": 1,
+   "time": "08:23"
+  }
+ },
+ "2026-10-29": {
+  "rates": {
+   "USD": {
+    "base": 1336.3,
+    "cash_buy": 1359.68,
+    "cash_sell": 1312.92
+   },
+   "JPY": {
+    "base": 846.89,
+    "cash_buy": 861.71,
+    "cash_sell": 832.07
+   },
+   "EUR": {
+    "base": 1490.51,
+    "cash_buy": 1520.17,
+    "cash_sell": 1460.85
+   },
+   "CNY": {
+    "base": 200.21,
+    "cash_buy": 210.22,
+    "cash_sell": 190.2
+   },
+   "THB": {
+    "base": 39.64,
+    "cash_buy": 41.62,
+    "cash_sell": 37.27
+   },
+   "TWD": {
+    "base": 41.24,
+    "cash_buy": 46.64,
+    "cash_sell": 37.12
+   },
+   "PHP": {
+    "base": 20.88,
+    "cash_buy": 22.96,
+    "cash_sell": 19.17
+   },
+   "VND": {
+    "base": 5.17,
+    "cash_buy": 5.78,
+    "cash_sell": 4.56
+   }
+  },
+  "meta": {
+   "date": "2026-10-29",
+   "round": 1,
+   "time": "08:23"
+  }
+ },
+ "2026-10-30": {
+  "rates": {
+   "USD": {
+    "base": 1335.3,
+    "cash_buy": 1358.66,
+    "cash_sell": 1311.94
+   },
+   "JPY": {
+    "base": 846.41,
+    "cash_buy": 861.22,
+    "cash_sell": 831.6
+   },
+   "EUR": {
+    "base": 1494.0,
+    "cash_buy": 1523.73,
+    "cash_sell": 1464.27
+   },
+   "CNY": {
+    "base": 200.39,
+    "cash_buy": 210.4,
+    "cash_sell": 190.38
+   },
+   "THB": {
+    "base": 39.57,
+    "cash_buy": 41.54,
+    "cash_sell": 37.2
+   },
+   "TWD": {
+    "base": 41.05,
+    "cash_buy": 46.42,
+    "cash_sell": 36.95
+   },
+   "PHP": {
+    "base": 20.96,
+    "cash_buy": 23.05,
+    "cash_sell": 19.25
+   },
+   "VND": {
+    "base": 5.17,
+    "cash_buy": 5.78,
+    "cash_sell": 4.56
+   }
+  },
+  "meta": {
+   "date": "2026-10-30",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-11-02": {
+  "rates": {
+   "USD": {
+    "base": 1337.2,
+    "cash_buy": 1360.6,
+    "cash_sell": 1313.8
+   },
+   "JPY": {
+    "base": 848.21,
+    "cash_buy": 863.05,
+    "cash_sell": 833.37
+   },
+   "EUR": {
+    "base": 1492.72,
+    "cash_buy": 1522.42,
+    "cash_sell": 1463.02
+   },
+   "CNY": {
+    "base": 200.93,
+    "cash_buy": 210.97,
+    "cash_sell": 190.89
+   },
+   "THB": {
+    "base": 39.6,
+    "cash_buy": 41.58,
+    "cash_sell": 37.23
+   },
+   "TWD": {
+    "base": 40.99,
+    "cash_buy": 46.35,
+    "cash_sell": 36.9
+   },
+   "PHP": {
+    "base": 20.98,
+    "cash_buy": 23.07,
+    "cash_sell": 19.26
+   },
+   "VND": {
+    "base": 5.18,
+    "cash_buy": 5.79,
+    "cash_sell": 4.57
+   }
+  },
+  "meta": {
+   "date": "2026-11-02",
+   "round": 1,
+   "time": "08:24"
+  }
+ },
+ "2026-11-03": {
+  "rates": {
+   "USD": {
+    "base": 1341.0,
+    "cash_buy": 1364.46,
+    "cash_sell": 1317.54
+   },
+   "JPY": {
+    "base": 849.03,
+    "cash_buy": 863.88,
+    "cash_sell": 834.18
+   },
+   "EUR": {
+    "base": 1499.91,
+    "cash_buy": 1529.75,
+    "cash_sell": 1470.07
+   },
+   "CNY": {
+    "base": 202.09,
+    "cash_buy": 212.19,
+    "cash_sell": 191.99
+   },
+   "THB": {
+    "base": 39.75,
+    "cash_buy": 41.73,
+    "cash_sell": 37.37
+   },
+   "TWD": {
+    "base": 41.12,
+    "cash_buy": 46.5,
+    "cash_sell": 37.01
+   },
+   "PHP": {
+    "base": 21.22,
+    "cash_buy": 23.34,
+    "cash_sell": 19.48
+   },
+   "VND": {
+    "base": 5.2,
+    "cash_buy": 5.81,
+    "cash_sell": 4.59
+   }
+  },
+  "meta": {
+   "date": "2026-11-03",
+   "round": 1,
+   "time": "08:23"
+  }
+ },
+ "2026-11-04": {
+  "rates": {
+   "USD": {
+    "base": 1341.2,
+    "cash_buy": 1364.67,
+    "cash_sell": 1317.73
+   },
+   "JPY": {
+    "base": 845.17,
+    "cash_buy": 859.96,
+    "cash_sell": 830.38
+   },
+   "EUR": {
+    "base": 1500.53,
+    "cash_buy": 1530.39,
+    "cash_sell": 1470.67
+   },
+   "CNY": {
+    "base": 201.41,
+    "cash_buy": 211.48,
+    "cash_sell": 191.34
+   },
+   "THB": {
+    "base": 39.7,
+    "cash_buy": 41.68,
+    "cash_sell": 37.32
+   },
+   "TWD": {
+    "base": 40.92,
+    "cash_buy": 46.28,
+    "cash_sell": 36.83
+   },
+   "PHP": {
+    "base": 21.12,
+    "cash_buy": 23.23,
+    "cash_sell": 19.39
+   },
+   "VND": {
+    "base": 5.21,
+    "cash_buy": 5.82,
+    "cash_sell": 4.6
+   }
+  },
+  "meta": {
+   "date": "2026-11-04",
+   "round": 1,
+   "time": "08:23"
+  }
+ },
+ "2026-11-05": {
+  "rates": {
+   "USD": {
+    "base": 1340.7,
+    "cash_buy": 1364.16,
+    "cash_sell": 1317.24
+   },
+   "JPY": {
+    "base": 846.35,
+    "cash_buy": 861.16,
+    "cash_sell": 831.54
+   },
+   "EUR": {
+    "base": 1506.14,
+    "cash_buy": 1536.11,
+    "cash_sell": 1476.17
+   },
+   "CNY": {
+    "base": 200.52,
+    "cash_buy": 210.54,
+    "cash_sell": 190.5
+   },
+   "THB": {
+    "base": 39.89,
+    "cash_buy": 41.88,
+    "cash_sell": 37.5
+   },
+   "TWD": {
+    "base": 40.83,
+    "cash_buy": 46.17,
+    "cash_sell": 36.75
+   },
+   "PHP": {
+    "base": 21.13,
+    "cash_buy": 23.24,
+    "cash_sell": 19.4
+   },
+   "VND": {
+    "base": 5.22,
+    "cash_buy": 5.83,
+    "cash_sell": 4.61
+   }
+  },
+  "meta": {
+   "date": "2026-11-05",
+   "round": 1,
+   "time": "08:27"
+  }
+ },
+ "2026-11-06": {
+  "rates": {
+   "USD": {
+    "base": 1342.0,
+    "cash_buy": 1365.48,
+    "cash_sell": 1318.52
+   },
+   "JPY": {
+    "base": 852.31,
+    "cash_buy": 867.22,
+    "cash_sell": 837.4
+   },
+   "EUR": {
+    "base": 1505.86,
+    "cash_buy": 1535.82,
+    "cash_sell": 1475.9
+   },
+   "CNY": {
+    "base": 201.34,
+    "cash_buy": 211.4,
+    "cash_sell": 191.28
+   },
+   "THB": {
+    "base": 40.13,
+    "cash_buy": 42.13,
+    "cash_sell": 37.73
+   },
+   "TWD": {
+    "base": 40.61,
+    "cash_buy": 45.92,
+    "cash_sell": 36.55
+   },
+   "PHP": {
+    "base": 21.31,
+    "cash_buy": 23.44,
+    "cash_sell": 19.57
+   },
+   "VND": {
+    "base": 5.23,
+    "cash_buy": 5.84,
+    "cash_sell": 4.62
+   }
+  },
+  "meta": {
+   "date": "2026-11-06",
+   "round": 1,
+   "time": "08:24"
+  }
+ }
+}

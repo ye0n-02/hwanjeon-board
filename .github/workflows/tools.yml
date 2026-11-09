@@ -24,7 +24,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: 실행
         env:
-          HANA_PBLD_DV_CD: ${{ vars.HANA_PBLD_DV_CD || '2' }}
+          HANA_PBLD_DV_CD: ${{ vars.HANA_PBLD_DV_CD || '1' }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python -m bot.main ${{ inputs.task }}

@@ -23,7 +23,7 @@ HEADERS = {
 }
 
 # 최초 고시를 뜻하는 고시구분 값. 실제 값은 check 워크플로로 확인해서 바꿀 수 있게 환경변수로 뺐다.
-FIRST_NOTICE_CODE = os.environ.get("HANA_PBLD_DV_CD", "2")
+FIRST_NOTICE_CODE = os.environ.get("HANA_PBLD_DV_CD", "1")
 
 
 class FetchError(RuntimeError):
@@ -65,9 +65,9 @@ def parse_meta(html: str) -> dict:
     m = re.search(r"(\d+)\s*회차", text)
     if m:
         meta["round"] = int(m.group(1))
-    m = re.search(r"(\d{1,2}):(\d{2})(?::(\d{2}))?", text)
+    m = re.search(r"(\d{1,2}):(\d{2})(?::(\d{2}))?", text) or re.search(r"(\d{1,2})\s*시\s*(\d{1,2})\s*분", text)
     if m:
-        meta["time"] = f"{int(m.group(1)):02d}:{m.group(2)}"
+        meta["time"] = f"{int(m.group(1)):02d}:{int(m.group(2)):02d}"
     return meta
 
 

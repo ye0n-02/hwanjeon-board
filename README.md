@@ -13,7 +13,7 @@
 | Secret | `IG_ACCESS_TOKEN` | 메타 개발자 앱에서 받은 토큰 |
 | Secret | `IG_USER_ID` | 인스타 계정 ID |
 | Variable | `POST_ENABLED` | `true`일 때만 실제 게시. 없으면 카드만 만드는 확인 모드 |
-| Variable | `HANA_PBLD_DV_CD` | 하나은행 고시구분 값 (최초 고시). 기본 `2`, `도구 → probe`로 확인 |
+| Variable | `HANA_PBLD_DV_CD` | 하나은행 고시구분 값 (최초 고시). 기본 `1` (probe로 확인함), `도구 → probe`로 확인 |
 | Variable | `IG_GRAPH_HOST` | 기본 `graph.facebook.com`. `도구 → whoami`로 되는 쪽 확인 |
 
 ## 안전장치

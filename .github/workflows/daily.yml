@@ -34,7 +34,7 @@ jobs:
       - name: 환율 수집 + 카드 생성
         id: build
         env:
-          HANA_PBLD_DV_CD: ${{ vars.HANA_PBLD_DV_CD || '2' }}
+          HANA_PBLD_DV_CD: ${{ vars.HANA_PBLD_DV_CD || '1' }}
         run: python -m bot.main build ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
       - name: 결과 저장 (기록 + 카드)
         if: always()

@@ -45,6 +45,9 @@ def cmd_build(args) -> int:
     if day.weekday() >= 5:
         out("skip", "weekend")
         return 0
+    if (POSTS / day.isoformat() / "posted.json").exists():
+        out("skip", "already-posted")
+        return 0
     hist = H.load()
     rates = meta = None
     for attempt in range(args.retries + 1):

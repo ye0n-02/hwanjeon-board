@@ -45,6 +45,10 @@ def cmd_build(args) -> int:
     if day.weekday() >= 5:
         out("skip", "weekend")
         return 0
+    # GitHub 예약 실행이 몇 시간씩 늦게 도는 경우가 있어서, 예약 실행은 정오 이후엔 올리지 않는다
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and datetime.now(KST).hour >= 12:
+        out("skip", "too-late")
+        return 0
     if (POSTS / day.isoformat() / "posted.json").exists():
         out("skip", "already-posted")
         return 0

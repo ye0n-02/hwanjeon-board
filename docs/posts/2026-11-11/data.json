@@ -1,0 +1,72 @@
+{
+ "day": "2026-11-11",
+ "files": [
+  "01.jpg",
+  "01.mp4",
+  "02.jpg",
+  "03.jpg",
+  "04.jpg",
+  "05.jpg",
+  "06.jpg",
+  "07.jpg"
+ ],
+ "pick": "TWD",
+ "rows": [
+  {
+   "code": "JPY",
+   "today_s": "846.44",
+   "delta_s": "▼ 11.98",
+   "verdict": "보통",
+   "pct": 42
+  },
+  {
+   "code": "USD",
+   "today_s": "1,343.30",
+   "delta_s": "▼ 12.40",
+   "verdict": "보통",
+   "pct": 68
+  },
+  {
+   "code": "EUR",
+   "today_s": "1,500.47",
+   "delta_s": "▼ 20.96",
+   "verdict": "보통",
+   "pct": 52
+  },
+  {
+   "code": "CNY",
+   "today_s": "201.74",
+   "delta_s": "▼ 1.93",
+   "verdict": "비싼 편",
+   "pct": 72
+  },
+  {
+   "code": "TWD",
+   "today_s": "40.76",
+   "delta_s": "▼ 0.57",
+   "verdict": "싼 편",
+   "pct": 18
+  },
+  {
+   "code": "THB",
+   "today_s": "39.95",
+   "delta_s": "▼ 0.63",
+   "verdict": "보통",
+   "pct": 62
+  },
+  {
+   "code": "VND",
+   "today_s": "5.25",
+   "delta_s": "▼ 0.06",
+   "verdict": "비싼 편",
+   "pct": 92
+  },
+  {
+   "code": "PHP",
+   "today_s": "21.32",
+   "delta_s": "▼ 0.13",
+   "verdict": "보통",
+   "pct": 62
+  }
+ ]
+}

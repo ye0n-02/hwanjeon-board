@@ -173,6 +173,11 @@
     "cash_buy": 23.82,
     "cash_sell": 19.89
    },
+   "CHF": {
+    "base": 1629.41,
+    "cash_buy": 1661.5,
+    "cash_sell": 1597.32
+   },
    "VND": {
     "base": 5.2,
     "cash_buy": 5.81,
@@ -221,6 +226,11 @@
     "base": 21.76,
     "cash_buy": 23.93,
     "cash_sell": 19.98
+   },
+   "CHF": {
+    "base": 1634.91,
+    "cash_buy": 1667.11,
+    "cash_sell": 1602.71
    },
    "VND": {
     "base": 5.24,
@@ -271,6 +281,11 @@
     "cash_buy": 23.87,
     "cash_sell": 19.93
    },
+   "CHF": {
+    "base": 1628.09,
+    "cash_buy": 1660.16,
+    "cash_sell": 1596.02
+   },
    "VND": {
     "base": 5.23,
     "cash_buy": 5.84,
@@ -319,6 +334,11 @@
     "base": 21.63,
     "cash_buy": 23.79,
     "cash_sell": 19.86
+   },
+   "CHF": {
+    "base": 1622.62,
+    "cash_buy": 1654.58,
+    "cash_sell": 1590.66
    },
    "VND": {
     "base": 5.22,
@@ -369,6 +389,11 @@
     "cash_buy": 23.81,
     "cash_sell": 19.88
    },
+   "CHF": {
+    "base": 1635.71,
+    "cash_buy": 1667.93,
+    "cash_sell": 1603.49
+   },
    "VND": {
     "base": 5.23,
     "cash_buy": 5.84,
@@ -417,6 +442,11 @@
     "base": 21.68,
     "cash_buy": 23.84,
     "cash_sell": 19.91
+   },
+   "CHF": {
+    "base": 1634.68,
+    "cash_buy": 1666.88,
+    "cash_sell": 1602.48
    },
    "VND": {
     "base": 5.23,
@@ -467,6 +497,11 @@
     "cash_buy": 23.55,
     "cash_sell": 19.66
    },
+   "CHF": {
+    "base": 1614.37,
+    "cash_buy": 1646.17,
+    "cash_sell": 1582.57
+   },
    "VND": {
     "base": 5.17,
     "cash_buy": 5.78,
@@ -515,6 +550,11 @@
     "base": 21.35,
     "cash_buy": 23.48,
     "cash_sell": 19.6
+   },
+   "CHF": {
+    "base": 1607.97,
+    "cash_buy": 1639.64,
+    "cash_sell": 1576.3
    },
    "VND": {
     "base": 5.15,
@@ -565,6 +605,11 @@
     "cash_buy": 23.44,
     "cash_sell": 19.57
    },
+   "CHF": {
+    "base": 1610.98,
+    "cash_buy": 1642.71,
+    "cash_sell": 1579.25
+   },
    "VND": {
     "base": 5.17,
     "cash_buy": 5.78,
@@ -613,6 +658,11 @@
     "base": 21.28,
     "cash_buy": 23.4,
     "cash_sell": 19.54
+   },
+   "CHF": {
+    "base": 1600.81,
+    "cash_buy": 1632.34,
+    "cash_sell": 1569.28
    },
    "VND": {
     "base": 5.15,
@@ -663,6 +713,11 @@
     "cash_buy": 23.47,
     "cash_sell": 19.6
    },
+   "CHF": {
+    "base": 1609.53,
+    "cash_buy": 1641.23,
+    "cash_sell": 1577.83
+   },
    "VND": {
     "base": 5.17,
     "cash_buy": 5.78,
@@ -711,6 +766,11 @@
     "base": 21.29,
     "cash_buy": 23.41,
     "cash_sell": 19.55
+   },
+   "CHF": {
+    "base": 1605.9,
+    "cash_buy": 1637.53,
+    "cash_sell": 1574.27
    },
    "VND": {
     "base": 5.17,
@@ -761,6 +821,11 @@
     "cash_buy": 23.51,
     "cash_sell": 19.63
    },
+   "CHF": {
+    "base": 1629.61,
+    "cash_buy": 1661.71,
+    "cash_sell": 1597.51
+   },
    "VND": {
     "base": 5.21,
     "cash_buy": 5.82,
@@ -809,6 +874,11 @@
     "base": 21.31,
     "cash_buy": 23.44,
     "cash_sell": 19.57
+   },
+   "CHF": {
+    "base": 1628.24,
+    "cash_buy": 1660.31,
+    "cash_sell": 1596.17
    },
    "VND": {
     "base": 5.18,
@@ -859,6 +929,11 @@
     "cash_buy": 23.26,
     "cash_sell": 19.42
    },
+   "CHF": {
+    "base": 1610.86,
+    "cash_buy": 1642.59,
+    "cash_sell": 1579.13
+   },
    "VND": {
     "base": 5.14,
     "cash_buy": 5.74,
@@ -907,6 +982,11 @@
     "base": 21.05,
     "cash_buy": 23.15,
     "cash_sell": 19.33
+   },
+   "CHF": {
+    "base": 1608.43,
+    "cash_buy": 1640.11,
+    "cash_sell": 1576.75
    },
    "VND": {
     "base": 5.13,
@@ -957,6 +1037,11 @@
     "cash_buy": 23.01,
     "cash_sell": 19.21
    },
+   "CHF": {
+    "base": 1607.74,
+    "cash_buy": 1639.41,
+    "cash_sell": 1576.07
+   },
    "VND": {
     "base": 5.13,
     "cash_buy": 5.73,
@@ -1005,6 +1090,11 @@
     "base": 20.86,
     "cash_buy": 22.94,
     "cash_sell": 19.15
+   },
+   "CHF": {
+    "base": 1615.46,
+    "cash_buy": 1647.28,
+    "cash_sell": 1583.64
    },
    "VND": {
     "base": 5.12,
@@ -1055,6 +1145,11 @@
     "cash_buy": 22.9,
     "cash_sell": 19.12
    },
+   "CHF": {
+    "base": 1605.02,
+    "cash_buy": 1636.63,
+    "cash_sell": 1573.41
+   },
    "VND": {
     "base": 5.12,
     "cash_buy": 5.72,
@@ -1103,6 +1198,11 @@
     "base": 20.69,
     "cash_buy": 22.75,
     "cash_sell": 19.0
+   },
+   "CHF": {
+    "base": 1598.4,
+    "cash_buy": 1629.88,
+    "cash_sell": 1566.92
    },
    "VND": {
     "base": 5.12,
@@ -1153,6 +1253,11 @@
     "cash_buy": 22.79,
     "cash_sell": 19.03
    },
+   "CHF": {
+    "base": 1597.27,
+    "cash_buy": 1628.73,
+    "cash_sell": 1565.81
+   },
    "VND": {
     "base": 5.13,
     "cash_buy": 5.73,
@@ -1201,6 +1306,11 @@
     "base": 20.88,
     "cash_buy": 22.96,
     "cash_sell": 19.17
+   },
+   "CHF": {
+    "base": 1613.99,
+    "cash_buy": 1645.78,
+    "cash_sell": 1582.2
    },
    "VND": {
     "base": 5.17,
@@ -1251,6 +1361,11 @@
     "cash_buy": 23.05,
     "cash_sell": 19.25
    },
+   "CHF": {
+    "base": 1621.89,
+    "cash_buy": 1653.84,
+    "cash_sell": 1589.94
+   },
    "VND": {
     "base": 5.17,
     "cash_buy": 5.78,
@@ -1299,6 +1414,11 @@
     "base": 20.98,
     "cash_buy": 23.07,
     "cash_sell": 19.26
+   },
+   "CHF": {
+    "base": 1621.24,
+    "cash_buy": 1653.17,
+    "cash_sell": 1589.31
    },
    "VND": {
     "base": 5.18,
@@ -1349,6 +1469,11 @@
     "cash_buy": 23.34,
     "cash_sell": 19.48
    },
+   "CHF": {
+    "base": 1637.56,
+    "cash_buy": 1669.81,
+    "cash_sell": 1605.31
+   },
    "VND": {
     "base": 5.2,
     "cash_buy": 5.81,
@@ -1397,6 +1522,11 @@
     "base": 21.12,
     "cash_buy": 23.23,
     "cash_sell": 19.39
+   },
+   "CHF": {
+    "base": 1633.52,
+    "cash_buy": 1665.7,
+    "cash_sell": 1601.34
    },
    "VND": {
     "base": 5.21,
@@ -1447,6 +1577,11 @@
     "cash_buy": 23.24,
     "cash_sell": 19.4
    },
+   "CHF": {
+    "base": 1641.51,
+    "cash_buy": 1673.84,
+    "cash_sell": 1609.18
+   },
    "VND": {
     "base": 5.22,
     "cash_buy": 5.83,
@@ -1495,6 +1630,11 @@
     "base": 21.31,
     "cash_buy": 23.44,
     "cash_sell": 19.57
+   },
+   "CHF": {
+    "base": 1644.81,
+    "cash_buy": 1677.21,
+    "cash_sell": 1612.41
    },
    "VND": {
     "base": 5.23,
@@ -1545,6 +1685,11 @@
     "cash_buy": 23.68,
     "cash_sell": 19.77
    },
+   "CHF": {
+    "base": 1656.08,
+    "cash_buy": 1688.7,
+    "cash_sell": 1623.46
+   },
    "VND": {
     "base": 5.31,
     "cash_buy": 5.93,
@@ -1593,6 +1738,11 @@
     "base": 21.45,
     "cash_buy": 23.59,
     "cash_sell": 19.7
+   },
+   "CHF": {
+    "base": 1654.5,
+    "cash_buy": 1687.09,
+    "cash_sell": 1621.91
    },
    "VND": {
     "base": 5.31,
@@ -1643,6 +1793,11 @@
     "cash_buy": 23.45,
     "cash_sell": 19.58
    },
+   "CHF": {
+    "base": 1628.54,
+    "cash_buy": 1660.62,
+    "cash_sell": 1596.46
+   },
    "VND": {
     "base": 5.25,
     "cash_buy": 5.86,
@@ -1692,6 +1847,11 @@
     "cash_buy": 23.22,
     "cash_sell": 19.38
    },
+   "CHF": {
+    "base": 1606.03,
+    "cash_buy": 1637.66,
+    "cash_sell": 1574.4
+   },
    "VND": {
     "base": 5.21,
     "cash_buy": 5.82,
@@ -1740,6 +1900,11 @@
     "base": 20.89,
     "cash_buy": 22.97,
     "cash_sell": 19.18
+   },
+   "CHF": {
+    "base": 1594.64,
+    "cash_buy": 1626.05,
+    "cash_sell": 1563.23
    },
    "VND": {
     "base": 5.19,

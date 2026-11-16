@@ -144,11 +144,13 @@ def cmd_backfill(args) -> int:
     end = today_kst() - timedelta(days=1)
     d, added = end, 0
     while d >= end - timedelta(days=args.days):
-        if d.weekday() < 5 and d.isoformat() not in hist:
+        # 기록이 없는 날 + 새로 추가된 통화가 빠진 날을 채운다
+        have = hist.get(d.isoformat(), {}).get("rates", {})
+        if d.weekday() < 5 and any(c not in have for c in CODES):
             try:
                 rates, meta, _ = hana.fetch(d)
                 if meta.get("date") in (None, d.isoformat()):
-                    H.upsert(hist, d.isoformat(), rates, meta)
+                    H.upsert(hist, d.isoformat(), {**rates, **have}, hist.get(d.isoformat(), {}).get("meta") or meta)
                     added += 1
                     print(d, len(rates), meta)
                 else:

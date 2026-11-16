@@ -9,5 +9,5 @@ def test_parse():
     r = hana.parse_rates(HTML)
     assert r["USD"]["base"] == 1490.20
     assert r["JPY"]["base"] == 935.91
-    assert r["VND"]["base"] == 5.67
+    assert r["CHF"]["base"] == 1832.40
     assert hana.parse_meta(HTML) == {"date": "2026-11-09", "round": 1, "time": "09:03"}

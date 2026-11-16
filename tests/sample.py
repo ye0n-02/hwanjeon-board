@@ -6,8 +6,8 @@ from pathlib import Path
 
 from bot import render
 
-BASE = {"JPY": 935.91, "USD": 1490.20, "EUR": 1716.93, "CNY": 216.59, "TWD": 48.86, "THB": 45.85, "VND": 5.67, "PHP": 25.47}
-SPREAD = {"JPY": 1.75, "USD": 1.75, "EUR": 1.99, "CNY": 5, "TWD": 8, "THB": 6, "VND": 9, "PHP": 7}
+BASE = {"JPY": 935.91, "USD": 1490.20, "EUR": 1716.93, "CNY": 216.59, "TWD": 48.86, "THB": 45.85, "CHF": 1832.40, "PHP": 25.47}
+SPREAD = {"JPY": 1.75, "USD": 1.75, "EUR": 1.99, "CNY": 5, "TWD": 8, "THB": 6, "CHF": 1.99, "PHP": 7}
 
 
 def sample_history(seed: int = 1) -> tuple[dict, str]:

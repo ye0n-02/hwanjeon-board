@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TEMPLATES = ROOT / "templates"
 TIPS = json.loads((ROOT / "content" / "tips.json").read_text(encoding="utf-8"))
 WEEKDAY = "월화수목금토일"
-FLAG = {"JPY": "🇯🇵", "USD": "🇺🇸", "EUR": "🇪🇺", "CNY": "🇨🇳", "TWD": "🇹🇼", "THB": "🇹🇭", "VND": "🇻🇳", "PHP": "🇵🇭"}
+FLAG = {"JPY": "🇯🇵", "USD": "🇺🇸", "EUR": "🇪🇺", "CNY": "🇨🇳", "TWD": "🇹🇼", "THB": "🇹🇭", "CHF": "🇨🇭", "PHP": "🇵🇭"}
 SLIDES = ["s1_board", "s2_pick", "s3_fees", "s4_trend", "s5_local", "s6_tip", "s7_cta"]
 TITLES = {
     "s1_board": ("Exchange Rates", "오늘의 환전"),

@@ -61,7 +61,7 @@ def chart_svg(series: list[tuple[str, float]], avg: float, color: str, w: int = 
             f'<circle cx="{(len(vals) - 1) * w / n - (8 if len(vals) > 1 else 0):.1f}" cy="{y(vals[-1]):.1f}" r="10" fill="{color}"/></svg>')
 
 
-TIP_VAR = re.compile(r"\{(spread|fee|fee90|save90|roundtrip):([A-Z]{3})(?::(\d+))?\}")
+TIP_VAR = re.compile(r"\{(spread|krw|fee|fee90|save90|roundtrip):([A-Z]{3})(?::(\d+))?\}")
 
 
 def fill_tip(tip: dict, rates: dict) -> dict:
@@ -73,7 +73,7 @@ def fill_tip(tip: dict, rates: dict) -> dict:
             return f"{(r['cash_buy'] / r['base'] - 1) * 100:.1f}"
         k = qty / BY_CODE[code]["unit"]
         fee = k * (r["cash_buy"] - r["base"])
-        v = {"fee": fee, "fee90": fee * 0.1, "save90": fee * 0.9,
+        v = {"krw": k * r["base"], "fee": fee, "fee90": fee * 0.1, "save90": fee * 0.9,
              "roundtrip": k * (r["cash_buy"] - r["cash_sell"])}[kind]
         return won(round(v, -2) if v >= 1000 else v, 0)
     sub = lambda t: TIP_VAR.sub(val, t)
@@ -84,9 +84,18 @@ def fill_tip(tip: dict, rates: dict) -> dict:
         return None
 
 
+TIP_EPOCH = date(2026, 1, 5)  # 월요일
+
+
+def tip_index(dt: date) -> int:
+    """평일(게시일)마다 1씩 늘어나는 번호. 주말을 건너뛰어서 팁이 순서대로 하나씩 돌아간다."""
+    days = (dt - TIP_EPOCH).days
+    return days // 7 * 5 + min(days % 7, 4) + 6  # 11/20부터 새 팁이 먼저 나오도록 맞춘 값
+
+
 def pick_tip(dt: date, rates: dict) -> dict:
     for i in range(len(TIPS)):
-        t = fill_tip(TIPS[(dt.toordinal() + i) % len(TIPS)], rates)
+        t = fill_tip(TIPS[(tip_index(dt) + i) % len(TIPS)], rates)
         if t:
             return t
     return TIPS[0]

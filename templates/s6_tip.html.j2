@@ -7,7 +7,7 @@
  {% for s in t.steps %}
  <div class="panel" style="display:flex;gap:28px;align-items:flex-start;padding:26px 30px">
   <div style="background:#FFD400;color:#082779;font-size:48px;font-weight:900;width:76px;height:76px;flex:none;display:flex;align-items:center;justify-content:center;border-radius:8px">{{ loop.index }}</div>
-  <div><div style="font-size:38px;font-weight:900">{{ s.h }}</div><div style="font-size:27px;color:#D6E2FF;line-height:1.5;margin-top:8px">{{ s.p }}</div></div>
+  <div><div style="font-size:38px;font-weight:900">{{ s.h }}</div><div style="font-size:27px;color:#D6E2FF;line-height:1.5;margin-top:8px;word-break:keep-all">{{ s.p }}</div></div>
  </div>
  {% endfor %}
 </div>

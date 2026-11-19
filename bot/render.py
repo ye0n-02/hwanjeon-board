@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import subprocess
 import tempfile
@@ -58,6 +59,37 @@ def chart_svg(series: list[tuple[str, float]], avg: float, color: str, w: int = 
             f'<line x1="0" y1="{y(avg):.1f}" x2="{w}" y2="{y(avg):.1f}" stroke="#BFD3FF" stroke-width="2" stroke-dasharray="8 8"/>'
             f'<polyline points="{pts}" fill="none" stroke="#FFD400" stroke-width="4"/>'
             f'<circle cx="{(len(vals) - 1) * w / n - (8 if len(vals) > 1 else 0):.1f}" cy="{y(vals[-1]):.1f}" r="10" fill="{color}"/></svg>')
+
+
+TIP_VAR = re.compile(r"\{(spread|fee|fee90|save90|roundtrip):([A-Z]{3})(?::(\d+))?\}")
+
+
+def fill_tip(tip: dict, rates: dict) -> dict:
+    """팁 문구의 {종류:통화:수량} 자리를 그날 고시로 채운다. 해당 통화가 없으면 None."""
+    def val(m: re.Match) -> str:
+        kind, code, qty = m.group(1), m.group(2), int(m.group(3) or 0)
+        r = rates[code]
+        if kind == "spread":
+            return f"{(r['cash_buy'] / r['base'] - 1) * 100:.1f}"
+        k = qty / BY_CODE[code]["unit"]
+        fee = k * (r["cash_buy"] - r["base"])
+        v = {"fee": fee, "fee90": fee * 0.1, "save90": fee * 0.9,
+             "roundtrip": k * (r["cash_buy"] - r["cash_sell"])}[kind]
+        return won(round(v, -2) if v >= 1000 else v, 0)
+    sub = lambda t: TIP_VAR.sub(val, t)
+    try:
+        return {"tag": tip["tag"], "title": sub(tip["title"]),
+                "steps": [{"h": sub(x["h"]), "p": sub(x["p"])} for x in tip["steps"]]}
+    except KeyError:
+        return None
+
+
+def pick_tip(dt: date, rates: dict) -> dict:
+    for i in range(len(TIPS)):
+        t = fill_tip(TIPS[(dt.toordinal() + i) % len(TIPS)], rates)
+        if t:
+            return t
+    return TIPS[0]
 
 
 def build_context(hist: dict, day: str) -> dict:
@@ -122,7 +154,7 @@ def build_context(hist: dict, day: str) -> dict:
         "pick_headline": "오늘 환전하기 좋은 통화" if pick["verdict"] == "싼 편" else "오늘 상대적으로 덜 비싼 통화",
         "charts": charts,
         "local": local,
-        "tip": TIPS[dt.toordinal() % len(TIPS)],
+        "tip": pick_tip(dt, today["rates"]),
         "next_label": "월요일 아침" if dt.weekday() == 4 else "내일 아침",
         "account": ACCOUNT,
     }

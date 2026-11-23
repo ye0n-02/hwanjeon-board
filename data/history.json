@@ -2162,5 +2162,54 @@
    "round": 1,
    "time": "08:24"
   }
+ },
+ "2026-11-23": {
+  "rates": {
+   "USD": {
+    "base": 1337.3,
+    "cash_buy": 1360.7,
+    "cash_sell": 1313.9
+   },
+   "JPY": {
+    "base": 842.95,
+    "cash_buy": 857.7,
+    "cash_sell": 828.2
+   },
+   "EUR": {
+    "base": 1467.69,
+    "cash_buy": 1496.89,
+    "cash_sell": 1438.49
+   },
+   "CNY": {
+    "base": 200.62,
+    "cash_buy": 210.65,
+    "cash_sell": 190.59
+   },
+   "THB": {
+    "base": 39.35,
+    "cash_buy": 41.31,
+    "cash_sell": 36.99
+   },
+   "TWD": {
+    "base": 40.56,
+    "cash_buy": 45.87,
+    "cash_sell": 36.51
+   },
+   "PHP": {
+    "base": 20.94,
+    "cash_buy": 23.03,
+    "cash_sell": 19.23
+   },
+   "CHF": {
+    "base": 1591.36,
+    "cash_buy": 1622.7,
+    "cash_sell": 1560.02
+   }
+  },
+  "meta": {
+   "date": "2026-11-23",
+   "round": 1,
+   "time": "08:27"
+  }
  }
 }
